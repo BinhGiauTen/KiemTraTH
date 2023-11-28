@@ -1,0 +1,38 @@
+{
+    "user": [{
+            "id": 1,
+            "username": "Binh",
+            "password": "12345",
+            "english": [ 
+                {
+                    "id": 1,
+                    "text": "Home"
+                },
+                {
+                    "id": 2,
+                    "text": "Father"
+                }
+            ],
+            "vietnamese": [ 
+                {
+                    "id": 1,
+                    "text": "Nha"
+                },
+                {
+                    "id": 2,
+                    "text": "Bo"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "username": "Nam",
+            "password": "123456"
+        },
+        {
+            "id": 1,
+            "username": "Bao",
+            "password": "12345"
+        }
+    ]
+}
