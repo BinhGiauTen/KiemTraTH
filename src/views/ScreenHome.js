@@ -3,7 +3,7 @@ import { View, TextInput, Button, Text } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { addWord } from '../redux/Slices';
 
-const ScreenHome = () => {
+const ScreenHome = ({navigation}) => {
   const dictionaryState = useSelector((state) => state.dictionary);
   const dispatch = useDispatch();
   const [englishWord, setEnglishWord] = useState('');
